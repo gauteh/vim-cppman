@@ -142,11 +142,7 @@ function! s:Cppman(page)
   exec "0"
 endfunction
 
-augroup Cpp
-  au!
-
-  au FileType cpp,c command! -nargs=+ Cppman call s:Cppman(expand(<q-args>))
-  au FileType cpp,c setl keywordprg=:Cppman
-  au FileType cpp,c setl iskeyword+=:,=,~,[,],*,!,<,>
-augroup END
+command! -nargs=+ Cppman call s:Cppman(expand(<q-args>)) 
+setl keywordprg=:Cppman                                  
+setl iskeyword+=:,=,~,[,],*,!,<,>                        
 
