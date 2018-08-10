@@ -1,4 +1,7 @@
-" This is heavily based on cppman.vim by Wei-Ning Huang (AZ) <aitjcize@gmail.com>
+" This is essentially an adapted version of the cppman.vim script that is 
+" included with cppman. Authored by Wei-Ning Huang (AZ) <aitjcize@gmail.com>
+" and others.
+"
 "
 " This program is free software; you can redistribute it and/or modify
 " it under the terms of the GNU General Public License as published by
@@ -13,8 +16,7 @@
 " You should have received a copy of the GNU General Public License
 " along with this program; if not, write to the Free Software Foundation,
 " Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-"
-"
+
 
 function! BackToPrevPage()
   if len(g:stack) > 0

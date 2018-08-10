@@ -21,3 +21,4 @@ You can also use e.g. `:Cppman iostream` to lookup a keyword.
 ## Installation
 
 Your favourite plugin manager.
+
