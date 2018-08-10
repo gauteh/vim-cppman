@@ -5,6 +5,8 @@ Vim. *cppman* is used to lookup "C++ 98/11/14 manual pages for Linux/MacOS"
 through either [cplusplus.com](https://cplusplus.com) or
 [cppreference.com](https://cppreference.com).
 
+<img src="https://raw.githubusercontent.com/gauteh/vim-cppman/master/example.png"></img>
+
 Originally *cppman* uses Vim to page and syntax highlight the man page, but it
 is not set up to be used in buffer in an existing VIM instance. That is what
 this small plugin does.
