@@ -26,5 +26,7 @@ You can also use e.g. `:Cppman iostream` to lookup a keyword.
 
 ## Installation
 
-Your favourite plugin manager.
+  1.) Install [cppman](https://github.com/aitjcize/cppman)
+
+  2.) Install this plugin using your favourite plugin manager.
 
