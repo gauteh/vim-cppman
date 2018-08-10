@@ -9,6 +9,10 @@ Originally *cppman* uses Vim to page and syntax highlight the man page, but it
 is not set up to be used in buffer in an existing VIM instance. That is what
 this small plugin does.
 
+This is heavily based on the existing
+[cppman.vim](https://github.com/aitjcize/cppman/blob/master/cppman/lib/cppman.vim)
+which is used for the Vim pager.
+
 ## Usage
 
 The `keywordprg` and `iskeyword`settings are automatically set for `C++` and `C` files. Otherwise use the same keybindings as in *cppman*:
